@@ -1,0 +1,25 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "firebase": "^5.8.0",
+    "firebase-admin": "^6.0.0",
+    "firebase-functions": "^2.1.0",
+    "neo4j-driver": "^1.7.2",
+    "parse-neo4j": "^0.6.11"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
